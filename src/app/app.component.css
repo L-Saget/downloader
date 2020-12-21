@@ -3,6 +3,12 @@ svg.material-icons {
   width: auto;
 }
 
+.image{
+  height:40em; background-size:cover; width:auto;
+  background-image:url('/assets/hackerman.jpeg');
+  background-position:50% 50%;
+}
+
 svg.material-icons:not(:last-child) {
   margin-right: 8px;
 }
@@ -15,8 +21,24 @@ svg.material-icons:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 10px;
+  color: #eeeeee;
+  backdrop-filter: blur(3px);
+  background-blend-mode: hard-light;
 }
+
+.marginpos {
+  position: absolute;
+  margin-top: 380px;
+  width: 100%;
+}
+
+/*.marginsimple {*/
+/*  position: absolute;*/
+/*  margin-top: 80px;*/
+/*  margin-left: 300px;*/
+/*  color: greenyellow;*/
+/*}*/
 
 .card {
   border-radius: 4px;
